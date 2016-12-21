@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Cognitive-Samples-IntelligentKiosk-master\Cognitive-Samples-IntelligentKiosk-master\Kiosk\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-21T06:37:05.968</Modified>
+      <Modified>2016-12-21T07:05:15.283</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Cognitive-Samples-IntelligentKiosk-master\Cognitive-Samples-IntelligentKiosk-master\Kiosk\bin\x86\Debug\IntelligentKioskSample.exe">
       <PackagePath>entrypoint\IntelligentKioskSample.exe</PackagePath>
-      <Modified>2016-12-21T06:37:03.958</Modified>
+      <Modified>2016-12-21T07:05:13.310</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\v-huhaor\.nuget\packages\Microsoft.AspNet.WebApi.Client\5.2.3\lib\portable-wp8+netcore45+net45+wp81+wpa81\System.Net.Http.Formatting.dll">
       <PackagePath>System.Net.Http.Formatting.dll</PackagePath>
@@ -623,11 +623,11 @@
     <AppxPackagedFile Include="C:\Cognitive-Samples-IntelligentKiosk-master\Cognitive-Samples-IntelligentKiosk-master\Kiosk\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-21T06:37:05.455</Modified>
+      <Modified>2016-12-21T07:05:14.735</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Cognitive-Samples-IntelligentKiosk-master\Cognitive-Samples-IntelligentKiosk-master\Kiosk\bin\x86\Debug\Core\IntelligentKioskSample.exe">
       <PackagePath>IntelligentKioskSample.exe</PackagePath>
-      <Modified>2016-12-21T06:37:05.960</Modified>
+      <Modified>2016-12-21T07:05:15.267</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -71,7 +71,7 @@ namespace IntelligentKioskSample.Views
 
         private DemographicsData demographics;
         private Dictionary<Guid, Visitor> visitors = new Dictionary<Guid, Visitor>();
-
+        private int ResetTimeHour = 7; // 7 am to reset
         public RealTimeDemo()
         {
             this.InitializeComponent();
@@ -109,7 +109,9 @@ namespace IntelligentKioskSample.Views
                 {
                     if (!this.isProcessingPhoto)
                     {
-                        if (DateTime.Now.Hour != this.demographics.StartTime.Hour)
+                        System.Diagnostics.Debug.Write(DateTime.Now.Hour);
+                        
+                        if (DateTime.Now.Hour==ResetTimeHour && DateTime.Now.Minute==0)
                         {
                             // We have been running through the hour. Reset the data...
                             await this.ResetDemographicsData();
@@ -324,7 +326,6 @@ namespace IntelligentKioskSample.Views
                         item.Surprise = lastEmotionSample.First().Scores.Surprise.ToString();
                         //#pragma warning disable 4014
                         await IoTClient.Start(item);
-                        // await Task.WhenAll(IoTClient.Start(item));
                         //#pragma warning restore 4014
                         System.Diagnostics.Debug.WriteLine("here!!!!!!!!");
                     }
