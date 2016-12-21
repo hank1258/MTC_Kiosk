@@ -1,0 +1,2 @@
+C:\Cognitive-Samples-IntelligentKiosk-master\Cognitive-Samples-IntelligentKiosk-master\Kiosk\IntelligentKioskSample.csproj;x86
+C:\Cognitive-Samples-IntelligentKiosk-master\Cognitive-Samples-IntelligentKiosk-master\Kiosk\ServiceHelpers\ServiceHelpers.csproj;neutral
